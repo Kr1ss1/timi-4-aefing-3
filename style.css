@@ -1,0 +1,76 @@
+/* =====================================================
+   ÆFING 3 – Box-model
+   ===================================================== */
+
+/* 5. BOX-SIZING */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #1b1f3b;
+  background-color: #f4f1ea;
+}
+
+
+/* 1. MIÐJUN MEÐ MARGIN */
+.umgjord {
+  width: 980px;
+  margin: 0 auto;
+}
+
+
+/* 2. BORDER */
+.kort {
+  background-color: white;
+  border: 2px solid #1b1f3b;
+}
+
+
+/* 3. PADDING */
+.kort {
+  padding: 24px;
+}
+
+
+/* 4. WIDTH + INLINE-BLOCK */
+.kort {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  margin: 8px;
+}
+
+
+/* 6. INLINE vs. INLINE-BLOCK */
+.takki {
+  padding: 10px 20px;
+  background: aqua;
+  color: blue;
+  text-decoration: none;
+
+  margin-top: 16px;
+  display: inline-block;
+}
+
+
+/* 7. MARGIN SAMFALL */
+h1 {
+  margin-bottom: 40px;
+}
+
+.inngangur {
+  margin-top: 30px;
+}
+
+
+/* 8. BÓNUS */
+.kort,
+.takki {
+  border-radius: 12px;
+}
+
+.kort:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
